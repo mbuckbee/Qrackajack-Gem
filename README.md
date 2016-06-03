@@ -56,14 +56,6 @@
 gem 'qrackajack', git: 'https://github.com/mbuckbee/Qrackajack-Gem.git'
 ```    
 
-
-## Result Attribute Descriptions
-
-| Attribute       | Type    | Description |
-| --------------- | ------- | -------- |
-
-
-
 ## Live Interactive Testing
 
 Doublecheck results, use a Live Proxy and check your API Key with the interactive documentation at:
