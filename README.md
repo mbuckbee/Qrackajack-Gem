@@ -41,15 +41,10 @@
 >> q = Qrackajack::APIController.new
 => #<Qrackajack::APIController:0x007f889528fc88>
 
->> q.lookup("http://www.expeditedssl.com","100","100","#000000","#ffffff")
+>> data = q.lookup("http://www.expeditedssl.com","100","100","#000000","#ffffff")
 
-```
-### Writing out the File
-
-```ruby
-File.open("my-qr-code.png", 'w'){|f|
-  f.write( q.lookup("http://www.expeditedssl.com","100","100","#000000","#ffffff"))
-}
+# Writes the file to the local directory, 'data' is the qr code returned
+>> File.open("my-qr-code.png", 'w'){|f| f.write(data)}
 ```
 
 ![Generate QR Code](my-qr-code.png)
