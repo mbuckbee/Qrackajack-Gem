@@ -6,7 +6,7 @@ module Qrackajack
     @base_uri = 'https://qrackajack.expeditedaddons.com'
 
     # Your API Key
-    @api_key = 'TODO: Replace'
+    @api_key = ENV['QRACKAJACK_API_KEY']
 
     # create the getters and setters
     class << self
