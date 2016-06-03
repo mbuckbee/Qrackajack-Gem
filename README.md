@@ -48,11 +48,11 @@
 
 ```ruby
 File.open("my-qr-code.png", 'w'){|f|
-    f.write( q.lookup("http://www.expeditedssl.com","100","100","#000000","#ffffff"))
+  f.write( q.lookup("http://www.expeditedssl.com","100","100","#000000","#ffffff"))
 }
 ```
 
-![Generate QR Code][my-qr-code.png]
+![Generate QR Code](my-qr-code.png)
 
 ## Installation
 
